@@ -6,3 +6,8 @@ go mod tidy
 go run .
 ```
 
+```
+cd python-client
+pip install -r requirements.txt
+python3 main.py --url ws://localhost:8080 --topic /cmd_vel
+```
